@@ -1,0 +1,42 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #10: Recursion
+*****************************************************
+
+ This program will obtain the following string:
+ 'abcdefghijklmnopqrstuvwxyz' then it will use a
+ reverse function that reverses the characters in
+ a string given two indices (starting and ending).
+ The string will reflect the reversal.
+
++++++++++++++++
+  First Index    
++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter Starting Index: 12
+Enter Ending Index:   19
+
+After reversal: abcdefghijksrqponmltuvwxyz
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++
+  Second Index    
+++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter Starting Index: 5
+Enter Ending Index:   23
+
+After reversal: abcdwvutsrqponmlkjihgfexyz
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++
+  Third Index    
++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter Starting Index: 1
+Enter Ending Index:   26
+
+After reversal: zyxwvutsrqponmlkjihgfedcba
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,94 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #6 : Friends, Overloading
+*****************************************************
+
+Using the code from assignment 5 this program will will test a
+friend function that checks to see if the perimeter of a Square
+object is equal to the perimeter of a Triangle object.Then it will
+overload the equality operator to see if the area of two Squares
+are equal.It also test an addition function that adds an integer
+to a Square’s side also it will overload the addition operator to
+add a constant to a Square’s side.
+Please enter the side length of the first square: 3
+
+Please enter three sides of the first triangle:
+Side One:   4
+Side Two:   4
+Side Three: 4
+
+Please enter the side length of the second square: 9
+
+Please enter three sides of the second triangle:
+Side One:   28
+Side Two:   12
+Side Three: 19
+
+Please enter the side length of the third square: 9
+
++++++++++++++++++++++++++
+  First Perimeter Check   
++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Square 1 and Triangle 1 Perimeter Check : Equal
+The perimeter of the square is: 9.00 inches.
+The perimeter of the triangle is: 6.93 feet.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++
+  Second Perimeter Check   
+++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Square 2 and Triangle 2 Perimeter Check : Unequal
+The perimeter of the square is: 81.00 inches.
+The perimeter of the triangle is: 90.17 feet.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++
+  First Area Check   
+++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Square 1 and Square 2 Area Check : Unequal
+The perimeter of the square is: 9.00 inches.
+The perimeter of the square is: 81.00 inches.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++
+  Second Area Check   
++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Square 2 and Square 3 Area Check : Equal
+The perimeter of the square is: 81.00 inches.
+The perimeter of the square is: 81.00 inches.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++
+  Testing Addition Member Function   
+++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Increase side of square 1 by how much : 10
+3  the length of the side before units to the side.
+10 units were added to the side.
+13 the length of the side after units to the side.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++
+  Testing Overloaded + Operator   
++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+After doing s2 = s2 + 8 :
+Side increased by 8 units
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++
+  Testing >>&<< Overloaded Operators   
+++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+After doing cin>>s3 :
+Enter Side Length: 28
+The perimeter of the square is: 784.00 inches.
+The area of the square is:      784.00 inches.
+
+After doing cout<<s3 :
+Length of Square : 28
+The perimeter of the square is: 784.00 inches.
+The area of the square is:      784.00 inches.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

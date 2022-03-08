@@ -1,0 +1,176 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #1 : Deck of Cards
+*****************************************************
+
+ This program will print out the initial deck, the deck after
+ the first perfect shuffle, the final deck and then how many
+ perfect shuffles are necessary to return the deck to its
+ original configuration.
+
+Initial Deck : 
+Ace of Clubs
+King of Clubs
+Queen of Clubs
+Jack of Clubs
+10 of Clubs
+9 of Clubs
+8 of Clubs
+7 of Clubs
+6 of Clubs
+5 of Clubs
+4 of Clubs
+3 of Clubs
+2 of Clubs
+Ace of Diamonds
+King of Diamonds
+Queen of Diamonds
+Jack of Diamonds
+10 of Diamonds
+9 of Diamonds
+8 of Diamonds
+7 of Diamonds
+6 of Diamonds
+5 of Diamonds
+4 of Diamonds
+3 of Diamonds
+2 of Diamonds
+Ace of Hearts
+King of Hearts
+Queen of Hearts
+Jack of Hearts
+10 of Hearts
+9 of Hearts
+8 of Hearts
+7 of Hearts
+6 of Hearts
+5 of Hearts
+4 of Hearts
+3 of Hearts
+2 of Hearts
+Ace of Spades
+King of Spades
+Queen of Spades
+Jack of Spades
+10 of Spades
+9 of Spades
+8 of Spades
+7 of Spades
+6 of Spades
+5 of Spades
+4 of Spades
+3 of Spades
+2 of Spades
+
+After first perfect shuffle : DECK
+Ace of Clubs
+Ace of Hearts
+King of Clubs
+King of Hearts
+Queen of Clubs
+Queen of Hearts
+Jack of Clubs
+Jack of Hearts
+10 of Clubs
+10 of Hearts
+9 of Clubs
+9 of Hearts
+8 of Clubs
+8 of Hearts
+7 of Clubs
+7 of Hearts
+6 of Clubs
+6 of Hearts
+5 of Clubs
+5 of Hearts
+4 of Clubs
+4 of Hearts
+3 of Clubs
+3 of Hearts
+2 of Clubs
+2 of Hearts
+Ace of Diamonds
+Ace of Spades
+King of Diamonds
+King of Spades
+Queen of Diamonds
+Queen of Spades
+Jack of Diamonds
+Jack of Spades
+10 of Diamonds
+10 of Spades
+9 of Diamonds
+9 of Spades
+8 of Diamonds
+8 of Spades
+7 of Diamonds
+7 of Spades
+6 of Diamonds
+6 of Spades
+5 of Diamonds
+5 of Spades
+4 of Diamonds
+4 of Spades
+3 of Diamonds
+3 of Spades
+2 of Diamonds
+2 of Spades
+
+Number of perfect shuffles required to return the
+deck to its original configuration : 8
+
+Final Deck : 
+Ace of Clubs
+King of Clubs
+Queen of Clubs
+Jack of Clubs
+10 of Clubs
+9 of Clubs
+8 of Clubs
+7 of Clubs
+6 of Clubs
+5 of Clubs
+4 of Clubs
+3 of Clubs
+2 of Clubs
+Ace of Diamonds
+King of Diamonds
+Queen of Diamonds
+Jack of Diamonds
+10 of Diamonds
+9 of Diamonds
+8 of Diamonds
+7 of Diamonds
+6 of Diamonds
+5 of Diamonds
+4 of Diamonds
+3 of Diamonds
+2 of Diamonds
+Ace of Hearts
+King of Hearts
+Queen of Hearts
+Jack of Hearts
+10 of Hearts
+9 of Hearts
+8 of Hearts
+7 of Hearts
+6 of Hearts
+5 of Hearts
+4 of Hearts
+3 of Hearts
+2 of Hearts
+Ace of Spades
+King of Spades
+Queen of Spades
+Jack of Spades
+10 of Spades
+9 of Spades
+8 of Spades
+7 of Spades
+6 of Spades
+5 of Spades
+4 of Spades
+3 of Spades
+2 of Spades

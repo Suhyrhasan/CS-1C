@@ -1,0 +1,103 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #4 : Enhanced Employees
+*****************************************************
+
+This program will write and test change address, city, state,
+and zip code member functions for the SoftwareTester class.Then it
+write a copy constructor for the SoftwareTester class.Then a deep
+copy member function for the SoftwareTester class. Then it will
+change the print SoftwareTester function to display all its data
+members. Afterward it will change the age and city of a
+SoftwareTester and test the change methods.
+
+Parameterized Constructor Called.
+Parameterized Constructor Called.
+Parameterized Constructor Called.
+
+**********************
+** Software Tester **
+**********************
+
+***************************************************************************
+Name: Joe Calculus     Age: 42    ID: 64879   Phone number: 949-555-1234
+---------------------------------------------------------------------------
+Job Title: Math Wiz         Salary: $110000   Hire Date: 08/31/2017
+---------------------------------------------------------------------------
+Address: 1234 Main Avenue      City: Laguna Niguel
+State: CA                      ZipCode: 92677
+***************************************************************************
+
+***************************************************************************
+Name: Mary Algebra     Age: 22    ID: 76309   Phone number: 213-555-5555
+---------------------------------------------------------------------------
+Job Title: Math Helper      Salary: $170123   Hire Date: 05/08/2017
+---------------------------------------------------------------------------
+Address: 3333 Marguerite Pkwy  City: Mission Viejo
+State: CA                      ZipCode: 92646
+***************************************************************************
+
+***************************************************************************
+Name: Jo Trig          Age: 39    ID: 10192   Phone number: 714-703-1234
+---------------------------------------------------------------------------
+Job Title: Math Contact     Salary: $200000   Hire Date: 12/25/2016
+---------------------------------------------------------------------------
+Address: 9876 Elm Street       City: Laguna Niguel
+State: CA                      ZipCode: 92672
+***************************************************************************
+
+***********************************************************************
+Testing change methods for softwareTester3: Testing setAge and setCity
+**********************************************************************
+
+***************************************************************************
+Name: Jo Trig          Age: 29    ID: 10192   Phone number: 714-703-1234
+---------------------------------------------------------------------------
+Job Title: Math Contact     Salary: $200000   Hire Date: 12/25/2016
+---------------------------------------------------------------------------
+Address: 9876 Elm Street       City: San Clemente
+State: CA                      ZipCode: 92672
+***************************************************************************
+
+************************************
+Testing the copy constructor:
+************************************
+When I pass by copy:
+Copy Constructor Called.
+Object Passed by Copy.
+Destructor Called.
+
+When I pass by reference:
+Object Passed by Refrence.
+
+When I return by copy:
+Object Returned By Copy.
+Copy Constructor Called.
+Destructor Called.
+
+When I return by reference:
+Object Returned By Refrence.
+
+******************************************************************
+Testing initialization construct:
+Setting softwareTesterFour = softwareTesterOne
+Copy Constructor Called.
+******************************************************************
+
+******************************************************************
+Testing my deep copy function: Copying softwareTesterTwo to
+softwareTesterOne,deleting softwareTesterTwo to prove deep copy
+Parameterized Constructor Called.
+Destructor Called.
+******************************************************************
+
+***************************************************************************
+Name: Mary Algebra     Age: 22    ID: 76309   Phone number: 213-555-5555
+---------------------------------------------------------------------------
+Job Title: Math Helper      Salary: $170123   Hire Date: 05/08/2017
+---------------------------------------------------------------------------
+Address: 3333 Marguerite Pkwy  City: Mission Viejo
+State: CA                      ZipCode: 92646
+***************************************************************************

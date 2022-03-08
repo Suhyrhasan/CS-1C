@@ -1,0 +1,59 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #8 : Templates
+*****************************************************
+This program will create and test a class template for a
+queue class.It will define several queues of different data
+types (char, int, bool) and insert and remove data from
+them. Then it will print the queues. to verify the enqueues
+and dequeues.This programs also has a copy constructor and
+it can copy all the elements of the queue in another queue.
+
++++++++++++++++++++++
+  Character Enqueue    
++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enqueue  a, b, c, d, e, f, 
+Dequeue  d, e, f, 
+Enqueue  d, e, f, g, h, i, j, 
+Dequeue  Queue is empty
+Is Empty?  Queue is empty
+Is Full?  Queue is not full
+Front of the Queue?  Queue is empty so nothing is in the front
+
+Copy constructor is called - Queue is empty so nothing is copied
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++
+  Integer Enqueue    
++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enqueue  1, 2, 3, 4, 5, 6, 
+Dequeue  3, 4, 5, 6, 
+Enqueue  3, 4, 5, 6, 7, 8, 9, 
+Dequeue  7, 8, 9, 
+Is Empty?  Queue is not empty
+Is Full?  Queue is not full
+Front of the Queue?  
+Copy constructor is called - Copied items are -7, 8, 9, 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++
+  Double Queue    
++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enqueue  1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 
+Dequeue  2.2, 3.3, 4.4, 5.5, 6.6, 
+Enqueue  2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 
+Dequeue  7.7, 8.8, 
+Is Empty?  Queue is not empty
+Is Full?  Queue is not full
+Front of the Queue?  
+Copy constructor is called - Copied items are -7.7, 8.8, 
+
+Testing true condition for isFULL()
+Enqueue  7.7, 8.8, 7.7, 8.8, 9.9, 1.1, 2.2, 3.3, 4.4, 5.5, 
+Is Full?  Queue is full
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

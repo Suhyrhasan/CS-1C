@@ -1,0 +1,46 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #5 : Abstract Classes
+*****************************************************
+
+This program will create an abstract class called Shape with pure
+virtual members called calcPerimeter and calcArea. Then it will
+create subclasses of Shape called Square and Triangle that inherited
+the pure virtual members above. Then it will write two non-member
+functions called printPerimeter and printArea that call the methods
+calcPerimeter and calcArea respectfully.Then it will test all the
+class functions in main.
+
+++++++++++
+  SQUARE   
+++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Please enter the side length of a square: 9.99
+
+The area is:      39.96 inches.
+The perimeter is: 99.80 inches.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++
+  TRIANGLE   
+++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Please enter three sides of a triangle:
+Side One:   5.0
+Side Two:   12.0
+Side Three: 13.0
+
+The area is:      30.00 feet.
+The perimeter is: 30.00 feet.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++
+  Command Line Arguments  
+++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Printing First and Last Name: Suhyr, Hasan
+
+Printing Out Second Char of First Name and The First Char of Last Name: u, h
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

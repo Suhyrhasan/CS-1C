@@ -1,0 +1,62 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #7 : Exceptions
+*****************************************************
+
+Using the code from assignment 6 write and test the assert macro (both
+pass and fail) using two different executions. Then add a an exceptions to
+the Square class that throws an exception if the length of a side is less
+than 0 or greater than 50 feet.The program will output the values that
+caused the exceptions (pass a value to the exception routine). The program
+will allow one to recover from an invalid length (for example, change the
+length of the side of the Square to a valid length).
+
+
++++++++++++++++++++++++++
+  Test The Assert Macro   
++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Testing Assert... -3
+Assertion failed: side > 0, file ..\main.cpp, line 661
+
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1C - MW - 5:00pm - 7:30pm
+*  ASSIGNMENT #7 : Exceptions
+*****************************************************
+
+Using the code from assignment 6 write and test the assert macro (both
+pass and fail) using two different executions. Then add a an exceptions to
+the Square class that throws an exception if the length of a side is less
+than 0 or greater than 50 feet.The program will output the values that
+caused the exceptions (pass a value to the exception routine). The program
+will allow one to recover from an invalid length (for example, change the
+length of the side of the Square to a valid length).
+
+
++++++++++++++++++++++++++
+  Test The Assert Macro   
++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Testing Assert... 3
+Assert Passed! Moving on...
+Done!
+Setting Square side length to 3 ...
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++
+  Test Exceptions  
++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Value is below 0! Entered value: -6
+Enter a valid value please.
+Setting side to 97
+Value is above 50! Entered value: 97
+Enter a valid value please
+Setting side to 12
+Printing Square side length...12
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,38 @@
+.open HiChew.db
+.mode  csv
+
+CREATE TABLE LoginInfo (
+Username      varchar(50) PRIMARY KEY,
+Password      varchar(50),
+EmployeeType  varchar(50)
+);
+INSERT INTO LoginInfo VALUES('admin','admin','administrator');
+INSERT INTO LoginInfo VALUES('manager','manager','store_manager');
+
+CREATE TABLE MembersInfo (
+MemberName    varchar(50),
+MemberID      INTEGER PRIMARY KEY,
+MemberStatus  varchar(50),
+MemberExpire  varchar(12),
+MemberRebate  FLOAT,
+MemberTotal   FLOAT
+);
+.import C:/sqlite3/MemberInfo.csv MembersInfo
+
+CREATE TABLE InventoryInfo (
+ItemName      varchar(50),
+ItemPrice     FLOAT,
+QuantitySold  INTEGER
+);
+.import C:/sqlite3/InventoryInfo.csv InventoryInfo
+
+CREATE TABLE SalesInfo (
+Date     varchar(12),
+ID       INTEGER,
+Item     TEXT,
+Cost     FLOAT,
+Quantity INTEGER,
+Subtotal FLOAT,
+Total    FLOAT
+); 
+.import C:/sqlite3/SalesInfo.csv SalesInfo

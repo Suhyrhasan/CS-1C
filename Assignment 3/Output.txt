@@ -1,0 +1,43 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #3 : Pointers
+*****************************************************
+
+This program will use dynamic arrays (using the new and
+delete operators) to calculate Mark's purchases of four 
+pairs of Nike basketball shoes, five Under Armour T-shirts,
+six Under Armour shorts, and one pair of Asics running
+shoes.Then the program will print a receipt for the
+purchase including the total cost before and after tax
+
+*** Purchase bill *** 
+Item No. Name of equipment Cost    Quantity
+1. Nike basketball shoes   $ 179.99   4 
+2. Under Armour T-shirt    $  29.99   3 
+3. Under Armour shorts     $  45.77   4 
+4. Asics running shoes     $ 165.88   1 
+
+ Total Cost : $1310.41
+ Tax (7.75%): $101.56
+ Total Cost with Tax: 1411.97
+
+
+Inventory before Mark's purchase: 
+Name of equipment	     Cost	   Quantity
+Nike basketball shoes	 $ 179.99     42
+Under Armour T-shirt	 $  29.99     44
+Brooks running shoes	 $ 121.44     13
+Asics running shoes	     $ 165.88     12
+Under Armour shorts	     $  45.77     35
+
+
+Inventory after Mark's purchase: 
+Name of equipment	     Cost	   Quantity
+Nike basketball shoes	 $ 179.99     38
+Under Armour T-shirt	 $  29.99     41
+Brooks running shoes	 $ 121.44     13
+Asics running shoes	     $ 165.88     11
+Under Armour shorts	     $  45.77     31
+
